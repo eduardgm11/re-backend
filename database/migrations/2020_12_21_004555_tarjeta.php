@@ -15,7 +15,7 @@ class Tarjeta extends Migration
     {
         Schema::create('gavetas', function (Blueprint $table) {
             $table->id();
-            $table->string('gaveta');
+            $table->string('gaveta')->unique();
             $table->timestamps();
         });
 
