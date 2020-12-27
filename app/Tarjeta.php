@@ -25,5 +25,8 @@ class Tarjeta extends Model
         'created_at', 'updated_at'
     ];
 
-
+    public function gaveta()
+    {
+        return $this->belongsTo('App\Gaveta');
+    }
 }

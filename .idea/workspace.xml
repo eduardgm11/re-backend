@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9baf7e37-6e77-46c8-84e9-2277163d6d52" name="Default Changelist" comment="Primer commit">
-      <change afterPath="$PROJECT_DIR$/app/Gaveta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GavetaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TarjetaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateGavetaRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateTarjetaRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateGavetaRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateTarjetaRequest.php" afterDir="false" />
+    <list default="true" id="9baf7e37-6e77-46c8-84e9-2277163d6d52" name="Default Changelist" comment="Segundo commit funcionando api">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Gaveta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gaveta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GavetaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GavetaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TarjetaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TarjetaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Tarjeta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tarjeta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_21_004555_tarjeta.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_21_004555_tarjeta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -176,7 +172,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608531793316</updated>
       <workItem from="1608531796681" duration="7000000" />
-      <workItem from="1608539136798" duration="11406000" />
+      <workItem from="1608539136798" duration="14070000" />
+      <workItem from="1609011289650" duration="1080000" />
+      <workItem from="1609092942097" duration="12106000" />
     </task>
     <task id="LOCAL-00001" summary="Cuarto commit, base de datos y api funcionando">
       <created>1608538376716</created>
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608539262416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Segundo commit funcionando api">
+      <created>1608621727780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608621727780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,8 +236,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Cuarto commit, base de datos y api funcionando" />
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Segundo commit funcionando api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit funcionando api" />
   </component>
 </project>

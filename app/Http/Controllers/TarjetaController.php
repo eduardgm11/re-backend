@@ -6,6 +6,7 @@ use App\Http\Requests\CreateTarjetaRequest;
 use App\Http\Requests\UpdateTarjetaRequest;
 use App\Tarjeta;
 use Illuminate\Http\Request;
+use App\Gaveta;
 
 class TarjetaController extends Controller
 {
@@ -17,7 +18,7 @@ class TarjetaController extends Controller
      */
     public function index(Request $request)
     {
-        //
+        //GET
         if($request->has('buscaTarjeta')){
             $tarjeta = Tarjeta::where('id_tarjeta', 'like', '%'. $request->buscaTarjeta.'%')
                 ->orWhere('gaveta', $request->buscaTarjeta)
@@ -29,11 +30,10 @@ class TarjetaController extends Controller
     }
 
     private function CargaPDF($file){
-
+        $nombrearchivo = time() . "-" . $file->getOriginalExtension();
+        $file->move(public_path('PDF'), $nombrearchivo);
+        return $nombrearchivo;
     }
-
-
-
 
     /**
      * Store a newly created resource in storage.
@@ -45,6 +45,9 @@ class TarjetaController extends Controller
     {
         //POST
         $input = $request->all();
+        if($request->has('PDF'))
+            $input['PDF'] = $this->CargaPDF($request->PDF);
+
         Tarjeta::create($input);
         return response()->json([
             'res' => true,
@@ -76,6 +79,8 @@ class TarjetaController extends Controller
     {
         //PUT
         $input = $request->all();
+        if($request->has('PDF'))
+            $input['PDF'] =$this->CargaPDF($request->PDF);
         $tarjeta->update($input);
         return response()->json([
             'res' => true,

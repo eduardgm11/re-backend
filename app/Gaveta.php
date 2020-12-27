@@ -9,10 +9,16 @@ class Gaveta extends Model
     //
     protected $table = 'gavetas';
     protected $fillable =[
-        'gaveta',
+       'id', 'gaveta',
     ];
 
     protected $hidden =[
         'created_at', 'updated_at'
     ];
+
+    public function tarjetas()
+    {
+        return $this->hasMany('App\Tarjeta');
+    }
+
 }
