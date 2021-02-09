@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9baf7e37-6e77-46c8-84e9-2277163d6d52" name="Default Changelist" comment="Segundo commit funcionando api">
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +175,7 @@
       <workItem from="1608539136798" duration="14070000" />
       <workItem from="1609011289650" duration="1080000" />
       <workItem from="1609092942097" duration="12106000" />
-      <workItem from="1612846573656" duration="1243000" />
+      <workItem from="1612846573656" duration="1426000" />
     </task>
     <task id="LOCAL-00001" summary="Cuarto commit, base de datos y api funcionando">
       <created>1608538376716</created>
@@ -210,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608621727780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Último commit">
+      <created>1612847960303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612847960303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +250,7 @@
     <MESSAGE value="Cuarto commit, base de datos y api funcionando" />
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Segundo commit funcionando api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit funcionando api" />
+    <MESSAGE value="Último commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Último commit" />
   </component>
 </project>

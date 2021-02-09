@@ -2,7 +2,7 @@
 
 ## Pasos para poder usar el proyecto
 
-###Paso número uno
+### Paso número uno
 #### Tranformar el .env de ejemplo a el .env del proyecto
 Para ello nos vamos a la ruta del proyecto y ejecutamos el siguiente comando
 ```
