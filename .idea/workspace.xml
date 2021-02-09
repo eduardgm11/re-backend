@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9baf7e37-6e77-46c8-84e9-2277163d6d52" name="Default Changelist" comment="Segundo commit funcionando api">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Gaveta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gaveta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GavetaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GavetaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TarjetaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TarjetaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tarjeta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tarjeta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +132,11 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lxHOJw9X9LuOCfJzAxsy3BD7bn" />
@@ -175,6 +180,7 @@
       <workItem from="1608539136798" duration="14070000" />
       <workItem from="1609011289650" duration="1080000" />
       <workItem from="1609092942097" duration="12106000" />
+      <workItem from="1612846573656" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="Cuarto commit, base de datos y api funcionando">
       <created>1608538376716</created>
