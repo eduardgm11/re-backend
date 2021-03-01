@@ -13,25 +13,18 @@ class Tarjeta extends Migration
      */
     public function up()
     {
-        Schema::create('gavetas', function (Blueprint $table) {
-            $table->id();
-            $table->string('gaveta')->unique();
-            $table->timestamps();
-        });
 
         Schema::create('tarjetas', function (Blueprint $table) {
             $table->id();
             $table ->string('id_tarjeta')->unique();
             $table->string('gaveta');
-            $table->integer('disiplina');
+            $table->integer('disciplina');
             $table->string('tamano')->nullable();
             $table->integer('unidad')->nullable();
             $table->string('tipo_documento')->nullable();
             $table->integer('imagenes')->nullable();
             $table->string('observacion')->nullable();
             $table->string('PDF')->nullable();
-            $table->unsignedBigInteger('gaveta_id');
-            $table->foreign('gaveta_id')->references('id')->on('gavetas');
             $table->timestamps();
         });
     }

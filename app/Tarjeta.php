@@ -11,14 +11,14 @@ class Tarjeta extends Model
     protected $fillable =[
         'id_tarjeta',
         'gaveta',
-        'disiplina',
+        'disciplina',
         'tamano',
         'unidad',
         'tipo_documento',
         'imagenes',
         'observacion',
         'PDF',
-        'gaveta_id'
+
     ];
 
     protected $hidden =[
