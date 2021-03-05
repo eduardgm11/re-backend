@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9baf7e37-6e77-46c8-84e9-2277163d6d52" name="Default Changelist" comment="Segundo commit funcionando api">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateTarjetaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateTarjetaRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -176,6 +177,8 @@
       <workItem from="1609011289650" duration="1080000" />
       <workItem from="1609092942097" duration="12106000" />
       <workItem from="1612846573656" duration="1426000" />
+      <workItem from="1614741928570" duration="2129000" />
+      <workItem from="1614797026322" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="Cuarto commit, base de datos y api funcionando">
       <created>1608538376716</created>

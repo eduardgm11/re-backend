@@ -25,10 +25,8 @@ class CreateTarjetaRequest extends FormRequest
     {
         return [
             //
-            'id_tarjeta' => 'required|min:10|max:100|unique:tarjetas, id_tarjeta',
-            'disiplina' => 'required' ,
-            'gaveta_id' => 'required',
-
+            'id_tarjeta' => 'required|min:10|max:50|unique:tarjetas,id_tarjeta',
+            'disciplina' => 'required'
         ];
     }
 }
