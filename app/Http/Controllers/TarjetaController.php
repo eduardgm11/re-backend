@@ -19,11 +19,13 @@ class TarjetaController extends Controller
     public function index(Request $request)
     {
         //GET
+
         if($request->has('buscaTarjeta')){
             $tarjeta = Tarjeta::where('id_tarjeta', 'like', '%'. $request->buscaTarjeta.'%')
                 ->orWhere('gaveta', $request->buscaTarjeta)
                 ->get();
         }else{
+            //$tarjeta =Tarjeta::paginate();
             $tarjeta =Tarjeta::all();
         }
         return $tarjeta;
